@@ -1,0 +1,26 @@
+{
+  "require-dev": {
+    "phpunit/phpunit": "6.2.*"
+  },
+  "autoload":{
+    "classmap":[
+      "AdapterWrapper/AbstractFactory.php",
+      "AdapterWrapper/HtmlFactory.php",
+      "AdapterWrapper/HtmlText.php",
+      "AdapterWrapper/JsonFactory.php",
+      "AdapterWrapper/JsonText.php",
+      "AdapterWrapper/Text.php",
+
+      "BuilderPattern/CarBuilder.php",
+      "BuilderPattern/Director.php",
+      "BuilderPattern/Parts/Car.php",
+      "BuilderPattern/Parts/Truck.php",
+      "BuilderPattern/TruckBuilder.php",
+      "BuilderPattern/BuilderInterface.php",
+      "BuilderPattern/Parts/Vehicle.php",
+      "BuilderPattern/Parts/Door.php",
+      "BuilderPattern/Parts/Wheel.php",
+      "BuilderPattern/Parts/Engine.php"
+    ]
+  }
+}
